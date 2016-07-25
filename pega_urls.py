@@ -1,6 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-arquivo = open('urls','r')
 
-for a in arquivo:
-    print a
+arquivo = open('teste','r')
+urls = []
+
+for u in arquivo:
+    urls.append(u.strip())
+
+print urls
